@@ -27,7 +27,7 @@ echo "Downloading OpenCV 3.2"
 wget https://sourceforge.net/projects/opencvlibrary/files/opencv-unix/3.2.0/opencv-3.2.0.zip/download
 mv download OpenCV-3.2.0.zip
 unzip OpenCV-3.2.0.zip
-cd ~/OpenCV-3.2.0/
+cd ~/OpenCV/opencv-3.2.0/
 mkdir build
 cd build
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D WITH_OPENGL=ON ..
