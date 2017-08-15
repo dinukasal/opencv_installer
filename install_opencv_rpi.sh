@@ -23,7 +23,7 @@ cd ~
 wget https://sourceforge.net/projects/opencvlibrary/files/opencv-unix/3.2.0/opencv-3.2.0.zip/download
 mv download OpenCV-3.2.0.zip
 unzip OpenCV-3.2.0.zip
-cd ~/OpenCV-3.2.0/
+cd ~/opencv-3.2.0/
 mkdir release
 cd release
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_PYTHON_SUPPORT=ON -j 4 -D BUILD_EXAMPLES=ON .. 
